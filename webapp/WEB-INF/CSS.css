@@ -1,0 +1,54 @@
+#h1	{
+
+
+}
+
+.body	{
+
+background-image: linear-gradient( to right, #03054E, #00B4D8, #CAF0F8);
+background-color: mediumpurple;
+height: 25%;
+display: flex;
+align-content: center;
+justify-content: center;
+
+}
+
+#login	{
+
+font-size: 40px;
+
+}
+
+#logAct	{
+
+font-size: 24px;
+border-radius: 5px;
+border: none;
+padding-right: 5px;
+
+}
+
+#enviar	{
+
+margin-left: 10px;
+font-size: 16px;
+
+}
+
+.div	{
+
+background-image: linear-gradient( to right, #CAF0F8, transparent, #CAF0F8);
+background-color: darkturquoise;
+width: 125%;
+text-align: center;
+border-radius: 5px;
+border: none;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto;
+margin-top: 50%;
+justify-content: center;
+align-items: center;
+
+}
