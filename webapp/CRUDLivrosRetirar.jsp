@@ -25,8 +25,8 @@
 	function myFunction(code, user)
 	{
 		var xhr = new XMLHttpRequest();
-		
 	    xhr.open( "POST", "/ControllerServlet?code=" + code + "&user" + user , true );
+		<% Livro.setRetirarLivro(); %>
 	    xhr.send(user,code);
 	}
 	</script>
