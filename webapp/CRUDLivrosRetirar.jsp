@@ -19,10 +19,13 @@
 <title>Listagem de livros</title>
 </head>
 <script>
+	button.onclick = myFunction
+	var button = document.querySelector("button");
+	
 	function myFunction(code, user)
 	{
-	    var xhr = new XMLHttpRequest();
-	    
+		var xhr = new XMLHttpRequest();
+		
 	    xhr.open( "POST", "/ControllerServlet?code=" + code + "&user" + user , true );
 	    xhr.send(user,code);
 	}
@@ -35,7 +38,7 @@
 		{
 	%>
 <body>
-Usuário: <%= user.toString() %>
+Usuï¿½rio: <%= user.toString() %>
 <table border="1">
 	<tr>
 		<th>Code</th>
@@ -69,7 +72,7 @@ Usuário: <%= user.toString() %>
 	{
 %>
 		<div>
-			Você não está logado. Clique <a href="login.jsp">aqui</a> para logar
+			Vocï¿½ nï¿½o estï¿½ logado. Clique <a href="login.jsp">aqui</a> para logar
 		</div>
 <%
 	}

@@ -21,7 +21,7 @@ public class Qualifica {
 		System.out.println(sql);
 	
 		try {	
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/site?useTimezone=true&serverTimezone=UTC","root","imortal4681pBNs17%");  
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/site?useTimezone=true&serverTimezone=UTC","root","root");  
 			Statement stmt = con.createStatement();
 			ResultSet rs = stmt.executeQuery(sql);
 		
