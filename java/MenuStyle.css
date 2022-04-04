@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+.MyBody	{
+	
+	Font-size: 24px;
+	background-image: linear-gradient( to right, #1e6091, #006d77, #1e6091);
+	
+	
+}
+
+#Title	{
+	
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	Font-color:white;
+	
+}
+
+p {
+	
+	margin: 24px;
+	padding: 36px;
+	background: linear-gradient(to right, white, lightgrey , white, lightgrey, white);
+	font-size: 46px; 
+	text-decoration: underline;
+	border-radius:20px;
+}
+
+.referencia	{
+
+	margin:2.5%;
+	margin-top: 10px;
+	font-size: 36px;
+
+}
+
